@@ -3,12 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { InputButtonUnitComponent } from './input-button-unit/input-button-unit.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    InputButtonUnitComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -17,5 +15,4 @@ import { InputButtonUnitComponent } from './input-button-unit/input-button-unit.
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule {
- }
+export class AppModule { }

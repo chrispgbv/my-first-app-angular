@@ -1,13 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
-  "schematics": {
-    "@schematics/angular": {
-      "component": {
-        "inlineTemplate": true
-      }
-    }
-  },
   "newProjectRoot": "projects",
   "projects": {
     "my-first-app": {
